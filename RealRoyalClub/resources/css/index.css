@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* border: 1px solid red; */
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: lightgray;
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    padding: 40px 20px;
+    overflow-y: scroll;
+}
+
+#crown-logo {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.wrapper .sidebar h2 {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 20px;
+}
+
+.wrapper .sidebar ul li a {
+    color: grey;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    font-weight: 600;
+    }
+
+.wrapper .sidebar ul li:hover {
+    border-bottom: 2px solid white;
+    border-top: 1px solid white;
+    
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: white;
+    text-decoration: underline;
+}
+
+.wrapper .sidebar .footer {
+    color: grey;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 14px;
+}
+
+.wrapper .main {
+    width: 100%;
+    max-height: 100%;
+    min-height: 1000px;
+    background-image: url("F:/Computer Science Projects/RealRoyalClub/resources/images/DesktopLogo_Web.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-width: 800px;
+    margin-left: 300px;
+}
+
+.wrapper .main .header { 
+    margin: 40px 0;
+    padding: 20px;
+    /* background-color: white; */
+    color: black;
+}
+
+.wrapper .main .header h1 {
+    font-size: 74px;
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+.wrapper .main .header p {
+    text-align: center;
+    font-size: 24px;
+}
