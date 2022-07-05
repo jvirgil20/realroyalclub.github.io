@@ -6,6 +6,7 @@
     text-decoration: none;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    overflow-x:  hidden;
     /* border: 1px solid red; */
 }
 
@@ -27,11 +28,26 @@ body{
 
 .wrapper .sidebar {
     position: fixed;
-    width: 300px;
+    top: 0;
+    left: 0;
     height: 100%;
+    min-height: 100vh;
+    width: 0;
     background-color: black;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     overflow-y: scroll;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+/* .wrapper #slider {
+    pointer-events: none;
+    transition: 0.5s ease-in-out;
+} */
+
+.wrapper .sidebar #sidebar-content {
+    opacity: 0;
+    transition: 0.75s ease-in-out;
 }
 
 #crown-logo {
@@ -46,7 +62,7 @@ body{
     text-align: center;
     margin: 40px 0;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .wrapper .sidebar ul li {
@@ -56,21 +72,35 @@ body{
 .wrapper .sidebar ul li a {
     color: grey;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     display: block;
     padding: 10px 0;
     font-weight: 600;
-    }
-
-.wrapper .sidebar ul li:hover {
-    border-bottom: 2px solid white;
-    border-top: 1px solid white;
-    
 }
 
-.wrapper .sidebar ul li:hover a{
+.wrapper .sidebar ul li a:after {
+    z-index: -1;
+    position: absolute;
+    left: 0%; 
+    width: 0;
+    height: 24px;
+    background: white;
+    content: '';
+    transition: width 0.35s ease-in-out;
+    display: inline;
+}
+
+.wrapper .sidebar ul li a:hover:after {
+    width: 10%;
+}
+
+.wrapper .sidebar ul li a:hover {
+    padding-left: 40px;
+    transition: 0.35s ease-in-out;
+    border-right: 1px solid white;
     color: white;
     text-decoration: underline;
+    transition: 0.35s;
 }
 
 .wrapper .sidebar .footer {
@@ -80,20 +110,34 @@ body{
     font-size: 14px;
 }
 
-.wrapper .main {
-    width: 100%;
-    max-height: 100%;
-    min-height: 1000px;
-    background-image: url("../images/DesktopLogo_Web.jpg");
+.wrapper .main.home {
     background-size: cover;
+    background-image: url("../images/DesktopLogo_Web.jpg");
+    background-position: top;
     background-repeat: no-repeat;
-    background-position: bottom;
-    min-width: 800px;
-    margin-left: 300px;
+}
+
+.wrapper .main {
+    /* position: fixed; */
+    width: 100%; 
+    height: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    min-width: 400px;
+    margin-left: 0;
+    transition: margin-left 0.5s;
+}
+
+.wrapper .main .toggle {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    margin-left: 10px;
 }
 
 .wrapper .main .header { 
-    margin: 40px 0;
+    margin-bottom: 40px;
     padding: 20px;
     /* background-color: white; */
     color: black;
@@ -110,3 +154,10 @@ body{
     text-align: center;
     font-size: 24px;
 }
+
+/* .wrapper .main .header .button {
+    background-color: black;
+    text-align: center;
+    margin: 40px;
+    color: white;
+} */
