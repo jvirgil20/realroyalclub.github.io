@@ -170,6 +170,24 @@ strong {
     transition: color 0.35s;
 }
 
+.page-nav {
+    font-size: 18px;
+    color: #0D0D0D;
+    margin: 40px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.page-nav a {
+    color: darkgray;
+}
+
+.page-nav a:hover{
+    font-weight: 600;
+    color: black;
+    transition: color 0.35s;
+}
+
 .wrapper.sections {
     flex-wrap: wrap;
     justify-content: center;
@@ -188,6 +206,11 @@ strong {
     background-color: white;
     color: black;
     box-shadow: 0 5px 10px darkgray;
+}
+
+.wrapper.section.section-text {
+    color: white;
+    background-color: #0D0D0D;
 }
 
 .wrapper.section:hover {

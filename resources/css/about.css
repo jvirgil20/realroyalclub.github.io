@@ -8,10 +8,6 @@
     background-color: rgba(13, 13, 13, 0.9);
 }
 
-.wrapper.section.section-text {
-    color: white;
-}
-
 #section-1 {
     background-size: cover;
     background-image: url("../images/JaylonVirgil_ProfilePhoto_Edited.JPG");
