@@ -21,6 +21,41 @@
     background-color: #0D0D0D;
 }
 
+#photoshop {
+    background-size: cover;
+    background-image: url("../images/design/art/PhotoshopLevel_Animation.GIF");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#illustrator {
+    background-size: cover;
+    background-image: url("../images/design/art/IlustratorLevel_Animation.GIF");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#indesign {
+    background-size: cover;
+    background-image: url("../images/design/art/IndesignLevel_Animation.GIF");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#after-effects {
+    background-size: cover;
+    background-image: url("../images/design/art/AfterEffectsLevel_Animation.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#premiere-pro {
+    background-size: cover;
+    background-image: url("../images/design/art/PremiereProLevel_Animation.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 #section-2 {
     background-size: cover;
     box-shadow: 0 5px 10px black inset;

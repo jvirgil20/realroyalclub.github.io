@@ -39,3 +39,10 @@
     background-position: top;
     background-repeat: no-repeat;
 }
+
+#um {
+    background-size: cover;
+    background-image: url("../images/design/art/UM_Animation.GIF");
+    background-position: top;
+    background-repeat: no-repeat;
+}
