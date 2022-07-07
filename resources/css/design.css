@@ -98,7 +98,7 @@
 
 #stop-pollutors {
     background-size: cover;
-    box-shadow: 0 5px 10px #0D0D0D inset;
+    box-shadow: 0 5px 10px darkgray inset;
     background-image: url("../images/design/socialmedia/STOP.gif");
     background-position: top;
     background-repeat: no-repeat;
