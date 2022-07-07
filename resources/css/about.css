@@ -1,0 +1,41 @@
+#section-1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(13, 13, 13, 0.9);
+}
+
+.wrapper.section.section-text {
+    color: white;
+}
+
+#section-1 {
+    background-size: cover;
+    background-image: url("../images/JaylonVirgil_ProfilePhoto_Edited.JPG");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#section-2 {
+    background-size: cover;
+    background-image: url("../images/AmericanSocialMiami_May2021_12.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#section-3 {
+    background-size: cover;
+    background-image: url("../images/TanerellePainting_June2021_8.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#selfie-wrld {
+    background-size: cover;
+    background-image: url("../images/SelfieWRLD_July2021_Jaylon_7.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
