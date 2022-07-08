@@ -234,14 +234,14 @@ strong {
     text-align: center;
 }
 
-.wrapper .main .section h1 {    
+.wrapper .main .section h2 {    
     margin-bottom: 10px;
     font-size: 48px;
     flex-grow: 2;
     text-transform: uppercase;
 }
 
-.wrapper .main .section h2 {    
+.wrapper .main .section h3 {    
     margin: 10px 0;
     font-weight: 600;
     font-size: 24px;
@@ -270,6 +270,8 @@ strong {
 .wrapper .main .header p {
     text-align: center;
     font-size: 18px;
+    max-width: 550px;
+    margin: 0 auto;
 }
 
 .wrapper .main .button  {
