@@ -44,4 +44,3 @@ function toggleSidebar() {
 }
 
 document.getElementById("toggle-button").onclick = toggleSidebar;
-document.getElementById("get-started").onclick = toggleSidebar;
