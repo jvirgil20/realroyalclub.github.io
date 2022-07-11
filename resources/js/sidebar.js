@@ -1,21 +1,3 @@
-//page animaton w/ sidebar --------------------------------------------
-
-/*
-let slider = document.getElementById("slider");
-slider.style.width = "300px";
-
-window.onload = () => {
-
-    setTimeout( () => {}, 500);
-    slider.style.width = "100%";
-    setTimeout( () => {}, 500);
-    slider.style.width = "0";
-
-}
-*/
-
-//sidebar open/close -------------------------------------------------
-
 let side = document.getElementById("sidebar-menu");
 let main = document.getElementById("main-content");
 let toggle = document.getElementById("toggle-button");
