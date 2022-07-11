@@ -8,6 +8,7 @@
     scrollbar-width: none;
     overflow-x:  hidden;
     /* border: 1px solid red; */
+    scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
@@ -153,6 +154,27 @@ strong {
     z-index: 2;
 }
 
+.wrapper .main .to-top {
+    position: fixed;
+    font-size: 50px;
+    font-weight: bold;
+    pointer-events: none;
+    color: black;
+    right: 40px;
+    bottom: 0px;
+    z-index: 2;
+    opacity: 0;
+    background-blend-mode: color-dodge;
+}
+
+.wrapper .main .to-top.active {
+    opacity: 1;
+    bottom: 10px;
+    pointer-events: auto;
+    cursor: pointer;
+    transition: 0.35s ease-in;
+}
+
 .wrapper .main .breadcrum-p {
     font-size: 24px;
     margin-left: 5%;
@@ -206,6 +228,17 @@ strong {
     background-color: white;
     color: black;
     box-shadow: 0 5px 10px darkgray;
+    transform: translateY(15px);
+}
+
+.wrapper.section.float-up {
+    transform: translateY(0px);
+    transition: 0.35s ease-in;
+}
+
+.wrapper.section:hover {
+    transform: scale(1.025);
+    transition: 0.35s ease-in-out;
 }
 
 .wrapper.section.section-text {
@@ -216,11 +249,6 @@ strong {
 hr {
     border: 1px solid rgb(52, 52, 52);
     border-radius: 5px;
-}
-
-.wrapper.section:hover {
-    transform: scale(1.025);
-    transition: 0.35s ease-in-out;
 }
 
 .wrapper .main .section img {
@@ -323,4 +351,5 @@ hr {
     top: 0;
     min-width: 400px;
 }
+
 
