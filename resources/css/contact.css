@@ -66,18 +66,3 @@ hr {
     display: inline;
 }
 
-#submit {
-    background-color: darkgray;
-    color: black;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    padding: 10px;
-    width: 300px;
-}
-
-#submit:hover {
-    background-color: white;
-    font-weight: 600;
-    transition: background-color 0.35s;
-}
