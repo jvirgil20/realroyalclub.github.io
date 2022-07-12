@@ -9,6 +9,7 @@ function toggleSidebar() {
 
     side.style.transition = "0.5s"
     main.style.transition = "margin-left 0.5s"
+    sidebarContent.style.display = "block";
 
     if (isOpen) {
         // if open set close

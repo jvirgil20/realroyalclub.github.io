@@ -1,14 +1,15 @@
 window.onload = () => {
 
-    let side = document.getElementById("sidebar-menu");
-    let main = document.getElementById("main-content");
-    let sidebarContent = document.getElementById("sidebar-content");
+    const side = document.getElementById("sidebar-menu");
+    const main = document.getElementById("main-content");
+    const sidebarContent = document.getElementById("sidebar-content");
     const loading = document.getElementById("crown-loading-anim");
     const anchors = document.querySelectorAll(".navigation a.non-active");
 
-    side.style.transition = "1s"
-    main.style.transition = "margin-left 1s"
-    loading.style.transition = "0.65s"
+    sidebarContent.style.display = "none";
+    side.style.transition = "1s";
+    main.style.transition = "margin-left 1s";
+    loading.style.transition = "0.65s";
     
     // side.style.width = "100%";
     // main.style.marginLeft = "100%";
@@ -43,6 +44,7 @@ window.onload = () => {
             }, 1000);
 
             setTimeout( () => {
+                sidebarContent.style.display = "none";
                 loading.style.opacity = "1";
                 loading.style.transition = "0.35s"
                 loading.style.display = "block";
