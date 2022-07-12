@@ -7,6 +7,9 @@ let isOpen;
 
 function toggleSidebar() {
 
+    side.style.transition = "0.5s"
+    main.style.transition = "margin-left 0.5s"
+
     if (isOpen) {
         // if open set close
         side.style.width = "0";
