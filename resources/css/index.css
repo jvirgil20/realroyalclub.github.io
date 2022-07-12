@@ -37,22 +37,28 @@ strong {
     left: 0;
     height: 100%;
     min-height: 100vh;
-    width: 0;
+    width: 100%;
     background-color: black;
     /* padding: 40px 20px; */
     overflow-y: scroll;
     z-index: 1;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
 }
 
-/* .wrapper #slider {
-    pointer-events: none;
-    transition: 0.5s ease-in-out;
-} */
+.wrapper .sidebar #crown-loading-anim {
+    position: relative;
+    display: block;
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    top: 40%;
+    transition: 0.65s ease-in-out;
+}
 
 .wrapper .sidebar #sidebar-content {
     opacity: 0;
-    transition: 0.75s ease-in-out;
+    transition: 0.65s ease-in-out;
 }
 
 #crown-logo {
@@ -88,11 +94,12 @@ strong {
     font-weight: 600;
 }
 
-.wrapper .sidebar ul li a .active {
+.wrapper .sidebar ul li a.active {
+    cursor: default;
     background-color: #0D0D0D;
 }
 
-.wrapper .sidebar ul li a:after {
+.wrapper .sidebar ul li a.non-active:after {
     z-index: -1;
     position: absolute;
     left: 0%; 
@@ -104,11 +111,11 @@ strong {
     display: inline;
 }
 
-.wrapper .sidebar ul li a:hover:after {
-    width: 10%;
+.wrapper .sidebar ul li a.non-active:hover:after {
+    width: 30px;
 }
 
-.wrapper .sidebar ul li a:hover {
+.wrapper .sidebar ul li a.non-active:hover {
     padding-left: 40px;
     transition: 0.35s ease-in-out;
     border-right: 1px solid white;
@@ -140,7 +147,7 @@ strong {
     min-height: 100vh;
     overflow-y: scroll;
     min-width: 400px;
-    margin-left: 0;
+    margin-left: 100%;
     transition: margin-left 0.5s;
 }
 
