@@ -90,7 +90,7 @@ strong {
     font-size: 24px;
     text-align: left;
     display: block;
-    padding: 10px 0;
+    padding: 10px;
     font-weight: 600;
 }
 
@@ -120,7 +120,7 @@ strong {
     transition: 0.35s ease-in-out;
     border-right: 1px solid white;
     color: white;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: 0.35s;
 }
 
