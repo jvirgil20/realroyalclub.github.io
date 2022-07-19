@@ -270,7 +270,7 @@ hr {
 .wrapper.section-text-wrap {
     flex-flow: column wrap;
     flex-grow: 2;
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
 }
 

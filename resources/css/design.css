@@ -1,3 +1,7 @@
+#art, #social, #logos, #flyers, #corporate {
+    width: 80%;
+}
+
 #photoshop {
     background-size: cover;
     background-image: url("../images/design/art/PhotoshopLevel_Animation.GIF");
@@ -56,6 +60,7 @@
 }
 
 #vibe {
+    width: 600px;
     background-size: cover;
     background-image: url("../images/design/socialmedia/CatchAVibe_Graphic_December2021_1080x1080px.jpg");
     background-position: top;
@@ -72,6 +77,7 @@
 #jersey-city {
     background-size: cover;
     /* box-shadow: 0 5px 10px #0D0D0D inset; */
+    height: 600px;
     background-image: url("../images/design/corporate/VoteTodayJerseyCity.jpg");
     background-position: top;
     background-repeat: no-repeat;
@@ -115,3 +121,4 @@
     background-position: top;
     background-repeat: no-repeat;
 }
+
