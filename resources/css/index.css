@@ -345,6 +345,9 @@ hr {
     color: black;
     border: none;
     cursor: pointer;
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 24px;
     padding: 10px;
     width: 300px;
