@@ -283,13 +283,15 @@ hr {
 
 .wrapper .main .section h3 {    
     margin: 20px 0;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 .wrapper .main .section p {
     margin-top: 40px;
-    font-size: 18px;
 }
 
 .wrapper .main .header { 
@@ -308,10 +310,17 @@ hr {
 
 .wrapper .main .header p {
     text-align: center;
-    font-size: 18px;
     max-width: 550px;
     margin: 0 auto;
 }
+
+.header p, .section p { 
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 .wrapper .main .button  {
     text-align: center;
