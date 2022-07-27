@@ -313,7 +313,7 @@ hr {
     margin: 0 auto;
 }
 
-.header p, .section p, .footer p { 
+.header p, .section p, p.footer { 
     font-size: 14px;
     font-family: montserrat, sans-serif;
     font-weight: 400;

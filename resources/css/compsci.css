@@ -1,3 +1,12 @@
 #java, #python, #javascript, #html {
     width: 80%;
 }
+
+#website {
+    width: 960px;
+    min-height: 540px;
+    background-size: cover;
+    background-image: url("../images/compsci/ChromeDevTools_Screenshot.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
