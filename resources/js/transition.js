@@ -6,8 +6,8 @@ window.onload = () => {
     const loading = document.getElementById("crown-loading-anim");
     const anchors = document.querySelectorAll(".navigation a.non-active");
 
-    sidebarContent.style.display = "none";
     side.style.transition = "1s";
+    sidebarContent.style.display = "none";
     main.style.transition = "margin-left 1s";
     loading.style.transition = "0.65s";
     
@@ -16,8 +16,8 @@ window.onload = () => {
     // sidebarContent.style.opacity = "0";
 
     setTimeout( ()=> {
-        main.style.marginLeft = "0";
         side.style.width = "0";
+        main.style.marginLeft = "0";
         loading.style.opacity = "0";
     }, 1000)
 
