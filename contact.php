@@ -1,19 +1,25 @@
-<?php 
-if(isset($_POST['submit'])){
-    $to = "jlv89@miami.edu"; // my email
-    $from = $_POST['email']; // sender's email address
-    $first_name = $_POST['first-name'];
-    $last_name = $_POST['last-name'];
-    $subject = "Form submission"; // my copy
-    $subject2 = "Copy of your form submission"; // sender copy
-    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to, $subject, $message, $headers);
-    mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
-    // echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get form data
+    $firstName = $_POST['first-name'];
+    $lastName = $_POST['last-name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone-number'];
+    $message = $_POST['message'];
+    
+    // Set email variables
+    $to = "jvirgil1106@outlook.com";
+    $subject = "New form submission";
+    $body = "Name: $firstName $lastName\nEmail: $email\nMessage: $message";
+    
+    // Send email
+    if (mail($to, $subject, $body)) {
+        echo "Email sent successfully!";
+    } else {
+        echo "Failed to send email. Please try again later.";
+    }
+} else {
+    // Handle the case when the form is not submitted via POST method
+    echo "This script should be accessed via a form submission.";
 }
-header('Location: sent.html'); 
 ?>
