@@ -21,7 +21,8 @@ form input, form textarea {
     font-style: normal;
 }
 
-#message {
+/* message */
+#entry\.839337160 {
     resize: none;
     min-width: 300px;
     width: 100%;

@@ -62,20 +62,30 @@
                         </div>
                         <hr>
                     <!-- </div> -->
-                    <form method="post" action="contact.php">
-                        <input type="text" name="first-name" placeholder="First Name">
-                        <input type="text" name="last-name" placeholder="Last Name">
+                    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdCcbaADolAL3Dff1YFZJT9IVRibRIHDtn_Ycc1sZF9Dv9VEg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                        <input type="text" name="entry.2005620554" id="entry.2005620554" placeholder="First Name">
+                        <input type="text" name="entry.1932188460" id="entry.1932188460" placeholder="Last Name">
                         <br>
-                        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" 
+                        <input type="email" name="entry.1045781291" id="entry.1045781291" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" 
                         required placeholder="Email">
-                        <input type="tel" name="phone-number" pattern="\([0-9]{3}\)[0-9]{3}-[0-9]{4}$"
+                        <input type="text" name="entry.1166974658" id="entry.1166974658" pattern="/^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]{8,14}$/g"
                         placeholder="Phone Number" >
                         <br>
-                        <textarea name="message" id="message" rows="10" required 
-                        placeholder="Message..." ></textarea>
+                        <textarea name="entry.839337160" id="entry.839337160" rows="10" required placeholder="Message..." ></textarea>
                         <br>
                         <input class="light-button" id="submit" type="submit" value="Send">
                     </form>
+
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+                    <script src="assets/js/jquery.min.js"></script>
+                    <script type="text/javascript">var submitted=false;</script>
+                    <script type="text/javascript">
+                    $('#gform').on('submit', function(e) {
+                        $('#gform *').fadeOut(2000);
+                        $('#gform').prepend('Your submission has been processed...');
+                        });
+                    </script>
                 </div>
 
             </div>
