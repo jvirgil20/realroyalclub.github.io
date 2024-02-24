@@ -1,4 +1,12 @@
-#section-1:before {
+#bio {
+    width: 80%;
+}
+
+#miami, #amazon, #sbd { 
+    width: 600px;
+}
+
+#section:before {
     content: "";
     position: absolute;
     left: 0;
@@ -8,38 +16,10 @@
     background-color: rgba(13, 13, 13, 0.9);
 }
 
-#section-1 {
-    width: 80%;
+#section {
     background-size: cover;
-    background-image: url("../images/JaylonVirgil_ProfilePhoto_Edited.JPG");
+    background-image: url("../images/about/UMiami.jpeg");
     background-position: top;
     background-repeat: no-repeat;
 }
 
-#section-2 {
-    background-size: cover;
-    background-image: url("../images/AmericanSocialMiami_May2021_12.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#section-3 {
-    background-size: cover;
-    background-image: url("../images/TanerellePainting_June2021_8.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#selfie-wrld {
-    background-size: cover;
-    background-image: url("../images/SelfieWRLD_July2021_Jaylon_7.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#um {
-    background-size: cover;
-    background-image: url("../images/design/art/UM_Animation.GIF");
-    background-position: top;
-    background-repeat: no-repeat;
-}
