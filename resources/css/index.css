@@ -203,9 +203,10 @@ strong {
 .page-nav {
     font-size: 18px;
     color: #0D0D0D;
-    margin: 40px;
+    margin: 40px auto;
     text-align: center;
     word-spacing: 10px;
+    width: 80%;
 }
 
 .page-nav a {
