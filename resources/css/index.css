@@ -182,10 +182,12 @@ strong {
 }
 
 .wrapper .main .breadcrum-p {
+    position: fixed;
     font-size: 24px;
-    margin-left: 5%;
-    margin-top: 70px;
+    margin-left: 20px;
+    margin-top: 60px;
     margin-bottom: 20px;
+    z-index: 2;
 }
 
 .wrapper .main .breadcrum-a {

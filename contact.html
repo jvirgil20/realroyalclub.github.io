@@ -40,7 +40,12 @@
         <div id="main-content" class="main">
             <div id="toggle-button" class="toggle">&#62;&#62;</div>
 
-            <p class="breadcrum-p"><a class="breadcrum-a" href="./index.html" >&#60;&#60; back</a></p>
+            <!-- BREADCRUM -->
+            <p class="breadcrum-p">
+                <a class="breadcrum-a" href="./photography.html" >&#60; photo</a>
+                <br>
+                <a class="breadcrum-a" href="./about.html" >about &#62;</a>
+            </p>
 
             <div class="header">
                 <h1>Contact</h1>
@@ -106,7 +111,6 @@
                     </form>
 
                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                     <script type="text/javascript">
                     $('#gform').on('submit', function(e) {
@@ -115,9 +119,16 @@
                             $('#gform').prepend('Thanks for your message :) I will get back to you shortly!');}, 1000)
                     });
                     </script>
-
                 </div>
 
+                <!-- NAVIGATION -->
+                <p class="page-nav">
+                    <a href="about.html">About</a> / 
+                    <a href="./design.html">Design</a> / 
+                    <a href="./compsci.html">Software</a> / 
+                    <a href="./photography.html">Photography</a> / 
+                    <a href="#">Contact</a>
+                </p>
             </div>
 
             <script type="text/javascript" src="./resources/js/sidebar.js"></script>
