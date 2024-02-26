@@ -17,11 +17,8 @@
 
         <!--SIDEBAR-->
         <div id="sidebar-menu" class="sidebar">
-
             <script type="text/javascript" src="./resources/js/transition.js"></script>
             <img id="crown-loading-anim" src="./resources/icons/HexCrown_LoadingAnimation.GIF" alt="Loading...">
-
-
             <div id="sidebar-content">
                 <a id="crown-home" href="index.html"><img id="crown-logo" src="./resources/images/HexCrown_White.png" alt="RRC Crown Logo">
                 <h2>Crown</h2></a>
@@ -36,17 +33,12 @@
                 <p class="footer">Real Royal Club LLC | 2022</p>
             </div>
         </div>
+
         <!--MAIN CONTENT-->
         <div id="main-content" class="main">
             <div id="toggle-button" class="toggle">&#62;&#62;</div>
 
-            <!-- BREADCRUM -->
-            <!-- <p class="breadcrum-p">
-                <a class="breadcrum-a" href="./photography.html" >&#60; photo</a>
-                <br>
-                <a class="breadcrum-a" href="./about.html" >about &#62;</a>
-            </p> -->
-
+            <!-- HEADER -->
             <div class="header">
                 <h1>Contact</h1>
                 <p>&#60;&#62;  Fill out the form below to leave me a message!  &#60;/&#62;</p>
@@ -54,19 +46,21 @@
             
             <div class="wrapper sections">
 
-                <div id="form" class="wrapper section section-text">
-                    <!-- <div class="wrapper section-text-wrap"> -->
-                        <h3>Get In Touch!</h3>
-                        <div class="contact-outlet">
-                            <img type="icon" id="email-icon" class="icon" src="./resources/icons/email_icon.png" alt="Email">
-                            <p>jlv89@miami.edu</p>
-                        </div>
-                        <div class="contact-outlet">
-                            <img type="icon" id="phone-icon" class="icon" src="./resources/icons/phone_icon.png" alt="Phone">
-                            <p>(240) 426-4928</p>
+                <div id="form" class="wrapper section dark">
+                    <div class="wrapper text">
+                        <h4>Get In Touch!</h4>
+                        <div class="outlets">
+                            <div class="outlet">
+                                <img type="icon" id="email-icon" class="icon" src="./resources/icons/email_icon.png" alt="Email">
+                                <p>jlv89@miami.edu</p>
+                            </div>
+                            <div class="outlet">
+                                <img type="icon" id="phone-icon" class="icon" src="./resources/icons/phone_icon.png" alt="Phone">
+                                <p>(240) 426-4928</p>
+                            </div>
                         </div>
                         <hr>
-                    <!-- </div> -->
+                    </div>
                     <script type="text/javascript">var submitted=false;</script>
 
                     <form 
@@ -107,7 +101,7 @@
                                 required 
                                 placeholder="* Message..." ></textarea>
                             <br>
-                            <input class="light-button" id="submit" type="submit" value="Send">
+                            <input class="button light" id="submit" type="submit" value="Send">
                     </form>
 
                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>

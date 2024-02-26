@@ -1,8 +1,4 @@
-/* #bio {
-    width: 80%;
-} */
-
-#section:before {
+/* #section:before {
     content: "";
     position: absolute;
     left: 0;
@@ -10,47 +6,36 @@
     top: 0;
     bottom: 0;
     background-color: rgba(13, 13, 13, 0.9);
+} */
+
+.section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    border: 1px solid white;
 }
 
-#section {
-    background-size: cover;
-    background-image: url("../images/about/UMiami.jpeg");
-    background-position: top;
-    background-repeat: no-repeat;
+#bio, #quote {
+    border: none;
+}
+
+#miami, #sbd, #amazon {
+    width: 500px;
 }
 
 #headshot {
-    background-size: cover;
     background-image: url("../images/about/JaylonVirgil_Headshot_Mar2023_Compressed.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    border: 1px solid white;
 }
 
 #mhnbeach {
-    background-size: cover;
     background-image: url("../images/about/JaylonVirgil_ManhattanBeach_July2023_Compressed-2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    border: 1px solid white;
 }
 
 #griff {
-    background-size: cover;
     background-image: url("../images/about/JaylonVirgil_Griffith_July2023_Compressed.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    border: 1px solid white;
 }
 
 #nyc {
-    background-size: cover;
     background-image: url("../images/about/JaylonVirgil_NYC_Dec2021.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    border: 1px solid white;
 }
