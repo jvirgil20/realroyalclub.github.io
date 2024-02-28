@@ -1,12 +1,20 @@
-#java, #python, #javascript, #html {
-    width: 80%;
+.section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
 }
 
 #website {
     width: 960px;
     min-height: 540px;
-    background-size: cover;
-    background-image: url("../images/compsci/ChromeDevTools_Screenshot.png");
-    background-position: right;
-    background-repeat: no-repeat;
 }
+
+#amazon1 {
+    width: 700px;
+    background-image: url("../images/compsci/amazon1.jpg");
+}
+#amazon2 {
+    background-image: url("../images/compsci/amazon2.jpg");
+}
+
