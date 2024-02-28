@@ -12,34 +12,14 @@
 }
 
 
-#griff1 {
-    background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-3.jpg");
-}
+#griff1 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-3.jpg"); }
+#griff2 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-4.jpg"); }
+#griff3 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-5.jpg"); }
+#griff4 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-6.jpg"); }
 
-#griff2 {
-    background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-4.jpg");
-}
+#miami1 { background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-1.jpg"); }
+#miami2 { background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-2.jpg"); }
 
-#griff3 {
-    background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-5.jpg");
-}
-
-#griff4 {
-    background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-6.jpg");
-}
-
-#miami1 {
-    background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-1.jpg");
-}
-
-#miami2 {
-    background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-2.jpg");
-}
-
-#nyc1 {
-    background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-1.jpg");
-}
-
-#nyc2 {
-    background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-2.jpg");
-}
+#nyc1 { background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-1.jpg"); }
+#nyc2 { background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-2.jpg"); }
+#nyc3 { background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-3.jpg"); }
