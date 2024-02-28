@@ -16,7 +16,7 @@
     border: 1px solid white;
 }
 
-#bio, #quote {
+#bio {
     border: none;
 }
 
@@ -38,4 +38,8 @@
 
 #nyc {
     background-image: url("../images/about/JaylonVirgil_NYC_Dec2021.JPG");
+}
+
+#quote p {
+    padding-bottom: 10px;
 }

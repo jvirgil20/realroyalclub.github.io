@@ -1,124 +1,135 @@
-#art, #social, #logos, #flyers, #corporate {
-    width: 80%;
-}
-
-#photoshop {
+.section {
     background-size: cover;
-    background-image: url("../images/design/art/PhotoshopLevel_Animation.GIF");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
+    border: 1px solid white;
 }
 
-#illustrator {
-    background-size: cover;
-    background-image: url("../images/design/art/IlustratorLevel_Animation.GIF");
-    background-position: top;
-    background-repeat: no-repeat;
+.section.dark {
+    border: none;
 }
 
-#indesign {
-    background-size: cover;
-    background-image: url("../images/design/art/IndesignLevel_Animation.GIF");
-    background-position: top;
-    background-repeat: no-repeat;
+#adobe { background-image: url("../images/design/adobe2.jpg"); }
+
+#blk, 
+#portraits 
+{
+    width: 400px;
 }
 
-#after-effects {
-    background-size: cover;
-    background-image: url("../images/design/art/AfterEffectsLevel_Animation.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
+/* BLK */
+#blk1 { background-image: url("../images/design/art/BlackReniassance_Graphic_December2021_1080x1080px.jpg"); }
+#blk2 { background-image: url("../images/design/art/BlackReniassanceHands_Graphic_December2021_1080x1080px.jpg"); }
 
-#premiere-pro {
-    background-size: cover;
-    background-image: url("../images/design/art/PremiereProLevel_Animation.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
+/* PORTRAITS */
+#portraits,
+#portrait1,
+#portrait2,
+#portrait3,
+#portrait4,
+#portrait5
+{
+    height: 525px;
 }
+#portrait1 { background-image: url("../images/design/art/NewsPaper21st_Drawing.jpg"); }
+#portrait2 { background-image: url("../images/design/art/untitled.jpg"); }
+#portrait3 { background-image: url("../images/design/art/Milena.jpg"); }
+#portrait4 { background-image: url("../images/design/art/radiant.jpg"); }
+#portrait5 { background-image: url("../images/design/art/untitled-1.jpg"); }
 
-#section-2 {
-    background-size: cover;
-    box-shadow: 0 5px 10px black inset;
-    background-image: url("../images/design/art/BlackReniassance_Graphic_December2021_1080x1080px.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
+/* BOUNCE BACK */
+#bounce1 { background-image: url("../images/design/social/Cover.jpg"); }
+#bounce2 { background-image: url("../images/design/social/PickUpNewSkill.jpg"); }
+#bounce3 { background-image: url("../images/design/social/FindResearchOpp.jpg"); }
+#bounce4 { background-image: url("../images/design/social/UpdateHandshakeLinkedIn.GIF"); }
+#bounce5 { background-image: url("../images/design/social/PolishYourResume.jpg"); }
+#bounce6 { background-image: url("../images/design/social/TakeCareerAssess_v2.jpg"); }
+#bounce7 { background-image: url("../images/design/social/FindACareerMentor.GIF"); }
 
-#section-3 {
-    background-size: cover;
-    background-image: url("../images/design/art/BlackReniassanceHands_Graphic_December2021_1080x1080px.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#section-10 {
-    background-size: cover;
-    background-image: url("../images/design/socialmedia/BounceBackSummer_Spring2022_SocialMedia1080x1080px_Cover.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#vibe {
-    width: 600px;
-    background-size: cover;
-    background-image: url("../images/design/socialmedia/CatchAVibe_Graphic_December2021_1080x1080px.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#chill-island {
-    background-size: cover;
-    background-image: url("../images/design/socialmedia/ChillIslandVibes_PlaylistCover_May2022_2100x2100px.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#jersey-city {
-    background-size: cover;
-    /* box-shadow: 0 5px 10px #0D0D0D inset; */
+/* OPEN EXHIBIT */
+#open2,
+#open3,
+#open4
+{
     height: 600px;
-    background-image: url("../images/design/corporate/VoteTodayJerseyCity.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
 }
+#open1 { background-image: url("../images/design/logos/OpenExhibit_Print.JPG"); }
+#open2 { background-image: url("../images/design/logos/OpenExhibit_Model-1.jpg"); }
+#open3 { background-image: url("../images/design/logos/OpenExhibit_Model-3.jpg"); }
+#open4 { background-image: url("../images/design/logos/OpenExhibit_Model-2.jpg"); }
 
-#martha {
-    background-size: cover;
-    background-image: url("../images/design/corporate/AdLaunchDate_DISPLAY_MARTHAMUGLER_1080x1080.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
+/* LOGOS */
+#stem,
+#listen,
+#jt
+{
+    background-size: contain;
+    border: 10px solid white;
 }
+#listen { background-image: url("../images/design/logos/ListenToAWoman_Logo_BlueGradient.jpg"); }
+#jt { background-image: url("../images/design/logos/JT_Logo_Dark.jpg"); }
+#stem { background-image: url("../images/design/logos/PuttingSTEMToWork_Logo_Teal.jpg"); }
 
-#fourth-july {
-    width: 800px;
-    background-size: cover;
+
+/* ADVERTISING */
+#tommi,
+#ziyah,
+#zion,
+#linkedin,
+#whiteboard,
+#network,
+#booth,
+#awards,
+#culture
+{
+    height: 525px;
+}
+#jersey,
+#clemente,
+#covid
+{
+    height: 600px;
+}
+#kappa { background-image: url("../images/design/flyers/KappaKoolOff_Flyer.jpg"); }
+#invited { background-image: url("../images/design/flyers/ToppelPhotoBooth_Invitation_1080x1080px_Draft5a.jpg"); }
+#pollutors { background-image: url("../images/design/flyers/STOP.gif"); }
+#international { background-image: url("../images/design/flyers/JobSearchForInternationalStudents_Spring2023_SocialMedia_1080x1080px.jpg"); }
+#va { background-image: url("../images/design/flyers/WeVoteVA_PermanentAbstentee_GIF_v4.gif"); }
+#va2 { background-image: url("../images/design/flyers/WeVotaVA.jpg"); }
+#holiday { background-image: url("../images/design/corporate/SafeAndHealthy_1080x1080.jpg"); }
+#reach { background-image: url("../images/design/corporate/NNCP_ReachingAVoterGraphic_1080x1080px_v1.jpg"); }
+#tommi { background-image: url("../images/design/flyers/TommiPromotion_Flyer_v3.jpg"); }
+#ziyah { background-image: url("../images/design/flyers/ZiyahBolckParty_Flyer_Filter.jpg"); }
+#zion { background-image: url("../images/design/flyers/ZionParty_Flyer.jpg"); }
+#culture { background-image: url("../images/design/flyers/CultureOfCareer_Flyer.jpg"); }
+#linkedin { background-image: url("../images/design/flyers/RockYourProfile_Fall2021_Flyer8.5x11in_v1.jpg"); }
+#whiteboard { background-image: url("../images/design/flyers/CareerOutcomesInfographic_Spring2022_8.5x11in_v1c.jpg"); }
+#network { background-image: url("../images/design/flyers/EngineeringNetworkDay_Fall2021_Flyer8.5x11_v1portfolio.jpg"); }
+#booth { background-image: url("../images/design/flyers/ToppelPhotoBooth_Fall2022_DigitalFlyer_8.5x11in_Draft2.jpg"); }
+#awards { background-image: url("../images/design/flyers/ToppelAwards_Fall2021_Flyer8.5x11in_Final.jpg"); }
+#jersey { background-image: url("../images/design/corporate/VoteTodayJerseyCity.jpg"); }
+#clemente { background-image: url("../images/design/corporate/NickClemente_Negative_960x1440.jpg"); }
+#covid { background-image: url("../images/design/corporate/FreeCovidVax_960x1440.jpg"); }
+#ufcw1 { background-image: url("../images/design/corporate/UFCW_PROActGraphics_1080x1080px_1-1.jpg"); }
+#ufcw2 { background-image: url("../images/design/corporate/UFCW_PROActGraphics_1080x1080px_2-2.jpg"); }
+#kidsvax { 
+    height: 800px;
+    background-image: url("../images/design/corporate/KidsVaxAd_900x1800.jpg"); 
+}
+#weed { 
+    height: 725px;
+    background-image: url("../images/design/corporate/NancyGuy_NowLegal_1080x1920.jpg"); 
+}
+#fourth {
+    width: 750px;
     background-image: url("../images/design/corporate/UFCW_4thJuly_AnimatedGraphic_1200x630px_v2.GIF");
-    background-position: top;
-    background-repeat: no-repeat;
 }
-
 #ufcw-wide {
     width: 800px;
-    background-size: cover;
     background-image: url("../images/design/corporate/UFCW_PROActGraphics_1200x630px_3-2.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
 }
-
-#maintain-distance {
+#distance {
     width: 500px;
-    background-size: cover;
     background-image: url("../images/design/corporate/MaintainASafeDistance_Graphic_11x8.5in.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#stop-pollutors {
-    background-size: cover;
-    box-shadow: 0 5px 10px darkgray inset;
-    background-image: url("../images/design/socialmedia/STOP.gif");
-    background-position: top;
-    background-repeat: no-repeat;
 }
 
