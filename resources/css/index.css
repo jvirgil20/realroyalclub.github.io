@@ -183,6 +183,7 @@ strong {
     text-align: center;
     word-spacing: 10px;
     width: 80%;
+    min-width: 400px;
 }
 
 .page-nav a {
@@ -197,6 +198,7 @@ strong {
 
 .sections {
     padding: 10px;
+    min-width: 400px;
 }
 
 .subhead {
@@ -348,6 +350,7 @@ hr {
     margin-bottom: 40px;
     padding: 20px;
     color: black;
+    min-width: 400px;
 }
 
 .header h1 {
