@@ -11,15 +11,37 @@
     border: none;
 }
 
-
+/* GFIFFITH */
 #griff1 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-3.jpg"); }
 #griff2 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-4.jpg"); }
 #griff3 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-5.jpg"); }
 #griff4 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-6.jpg"); }
-
+#la1 { background-image: url("../images/photography/JaylonVirgil_LA_Jul2023_Compressed-1.jpg"); }
+/* MIAMI */
 #miami1 { background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-1.jpg"); }
 #miami2 { background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-2.jpg"); }
-
+/* NYC */
 #nyc1 { background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-1.jpg"); }
 #nyc2 { background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-2.jpg"); }
 #nyc3 { background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-3.jpg"); }
+/* RAE GRAD */
+#raegrad1 { background-image: url("../images/photography/Rae_Grad_Dec2023-1.jpg"); }
+#raegrad2 { background-image: url("../images/photography/Rae_Grad_Dec2023-2.jpg"); }
+#raegrad5 { background-image: url("../images/photography/Rae_Grad_Dec2023-5.jpg"); }
+#raegrad7 { background-image: url("../images/photography/Rae_Grad_Dec2023-7.jpg"); }
+/* STEPHANIE */
+#steph1 { background-image: url("../images/photography/Steph_Nov2023-1.jpg"); }
+#steph2 { background-image: url("../images/photography/Steph_Nov2023-2.jpg"); }
+#steph3 { background-image: url("../images/photography/Steph_Nov2023-3.jpg"); }
+#steph4 { background-image: url("../images/photography/Steph_Nov2023-4.jpg"); }
+#steph5 { background-image: url("../images/photography/Steph_Nov2023-5.jpg"); }
+#steph6 { background-image: url("../images/photography/Steph_Nov2023-6.jpg"); }
+/* RAE */
+#rae1 { background-image: url("../images/photography/Rae_Mar2023-1.jpg"); }
+#rae2 { background-image: url("../images/photography/Rae_Mar2023-2.jpg"); }
+#rae3 { background-image: url("../images/photography/Rae_Mar2023-3.jpg"); }
+/* SANAA */
+#sanaa1 { background-image: url("../images/photography/Sanaa_Bday_Dec2022-1.jpg"); }
+#sanaa2 { background-image: url("../images/photography/Sanaa_Bday_Dec2022-2.jpg"); }
+#sanaa3 { background-image: url("../images/photography/Sanaa_Bday_Dec2022-3.jpg"); }
+#sanaa4 { background-image: url("../images/photography/Sanaa_Bday_Dec2022-4.jpg"); }
