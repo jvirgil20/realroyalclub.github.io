@@ -5,6 +5,10 @@
     border: 1px solid white;
 }
 
+.section.dark {
+    border: none;
+}
+
 #website {
     width: 960px;
     min-height: 540px;
