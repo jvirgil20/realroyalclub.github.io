@@ -97,7 +97,6 @@
 #va { background-image: url("../images/design/flyers/WeVoteVA_PermanentAbstentee_GIF_v4.gif"); }
 #va2 { background-image: url("../images/design/flyers/WeVotaVA.jpg"); }
 #holiday { background-image: url("../images/design/corporate/SafeAndHealthy_1080x1080.jpg"); }
-#reach { background-image: url("../images/design/corporate/NNCP_ReachingAVoterGraphic_1080x1080px_v1.jpg"); }
 #tommi { background-image: url("../images/design/flyers/TommiPromotion_Flyer_v3.jpg"); }
 #ziyah { background-image: url("../images/design/flyers/ZiyahBolckParty_Flyer_Filter.jpg"); }
 #zion { background-image: url("../images/design/flyers/ZionParty_Flyer.jpg"); }
@@ -128,8 +127,16 @@
     width: 800px;
     background-image: url("../images/design/corporate/UFCW_PROActGraphics_1200x630px_3-2.jpg");
 }
-#distance {
-    width: 500px;
-    background-image: url("../images/design/corporate/MaintainASafeDistance_Graphic_11x8.5in.jpg");
+
+#phi1,
+#phi2,
+#phi4,
+#phi3
+{
+    height: 525px;
 }
+#phi1 { background-image: url("../images/design/JaylonVirgil_PHI115_Algorithms.jpg"); }
+#phi2 { background-image: url("../images/design/JaylonVirgil_PHI115_AutonomousVehicles.jpg"); }
+#phi3 { background-image: url("../images/design/JaylonVirgil_PHI115_VirtueEthics.jpg"); }
+#phi4 { background-image: url("../images/design/JaylonVirgil_PHI115_Singularity.jpg"); }
 
