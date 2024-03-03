@@ -18,8 +18,8 @@
 }
 
 /* BLK */
-#blk1 { background-image: url("../images/design/art/BlackReniassance_Graphic_December2021_1080x1080px.jpg"); }
-#blk2 { background-image: url("../images/design/art/BlackReniassanceHands_Graphic_December2021_1080x1080px.jpg"); }
+#blk1 { background-image: url("../images/design/art/BlackReniassance_Graphic_December2021_1080x1080px.webp"); }
+#blk2 { background-image: url("../images/design/art/BlackReniassanceHands_Graphic_December2021_1080x1080px.webp"); }
 
 /* PORTRAITS */
 #portraits,
@@ -31,11 +31,11 @@
 {
     height: 525px;
 }
-#portrait1 { background-image: url("../images/design/art/NewsPaper21st_Drawing.jpg"); }
-#portrait2 { background-image: url("../images/design/art/untitled.jpg"); }
-#portrait3 { background-image: url("../images/design/art/Milena.jpg"); }
-#portrait4 { background-image: url("../images/design/art/radiant.jpg"); }
-#portrait5 { background-image: url("../images/design/art/untitled-1.jpg"); }
+#portrait1 { background-image: url("../images/design/art/NewsPaper21st_Drawing.webp"); }
+#portrait2 { background-image: url("../images/design/art/untitled.webp"); }
+#portrait3 { background-image: url("../images/design/art/Milena.webp"); }
+#portrait4 { background-image: url("../images/design/art/radiant.webp"); }
+#portrait5 { background-image: url("../images/design/art/untitled-1.webp"); }
 
 /* BOUNCE BACK */
 #bounce1 { background-image: url("../images/design/social/Cover.jpg"); }
