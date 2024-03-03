@@ -41,10 +41,8 @@
 #bounce1 { background-image: url("../images/design/social/Cover.jpg"); }
 #bounce2 { background-image: url("../images/design/social/PickUpNewSkill.jpg"); }
 #bounce3 { background-image: url("../images/design/social/FindResearchOpp.jpg"); }
-#bounce4 { background-image: url("../images/design/social/UpdateHandshakeLinkedIn.GIF"); }
 #bounce5 { background-image: url("../images/design/social/PolishYourResume.jpg"); }
 #bounce6 { background-image: url("../images/design/social/TakeCareerAssess_v2.jpg"); }
-#bounce7 { background-image: url("../images/design/social/FindACareerMentor.GIF"); }
 
 /* OPEN EXHIBIT */
 #open2,
@@ -92,9 +90,7 @@
 }
 #kappa { background-image: url("../images/design/flyers/KappaKoolOff_Flyer.jpg"); }
 #invited { background-image: url("../images/design/flyers/ToppelPhotoBooth_Invitation_1080x1080px_Draft5a.jpg"); }
-#pollutors { background-image: url("../images/design/flyers/STOP.gif"); }
 #international { background-image: url("../images/design/flyers/JobSearchForInternationalStudents_Spring2023_SocialMedia_1080x1080px.jpg"); }
-#va { background-image: url("../images/design/flyers/WeVoteVA_PermanentAbstentee_GIF_v4.gif"); }
 #va2 { background-image: url("../images/design/flyers/WeVotaVA.jpg"); }
 #holiday { background-image: url("../images/design/corporate/SafeAndHealthy_1080x1080.jpg"); }
 #tommi { background-image: url("../images/design/flyers/TommiPromotion_Flyer_v3.jpg"); }
@@ -121,7 +117,6 @@
 }
 #fourth {
     width: 750px;
-    background-image: url("../images/design/corporate/UFCW_4thJuly_AnimatedGraphic_1200x630px_v2.GIF");
 }
 #ufcw-wide {
     width: 800px;
