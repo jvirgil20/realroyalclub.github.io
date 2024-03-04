@@ -9,14 +9,24 @@
     border: none;
 }
 
-#website {
+/* #website,
+#website1,
+#website2,
+#website3,
+#website4,
+#website5
+{
+    height: 600px;
+} */
+
+#website1 {
     width: 960px;
     min-height: 540px;
+    background-image: url("../images/compsci/website1.jpg");
 }
+#website2 { background-image: url("../images/compsci/code.jpg"); }
+#website3 { background-image: url("../images/compsci/website3.jpg"); }
+#website5 { background-image: url("../images/compsci/code2.jpg"); }
 
-#amazon1 {
-    background-image: url("../images/compsci/amazon1.webp");
-}
-#amazon2 {
-    background-image: url("../images/compsci/amazon2.webp");
-}
+#amazon1 { background-image: url("../images/compsci/amazon1.webp"); }
+#amazon2 { background-image: url("../images/compsci/amazon2.webp"); }
