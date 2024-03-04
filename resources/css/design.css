@@ -38,11 +38,11 @@
 #portrait5 { background-image: url("../images/design/art/untitled-1.webp"); }
 
 /* BOUNCE BACK */
-#bounce1 { background-image: url("../images/design/social/Cover.jpg"); }
-#bounce2 { background-image: url("../images/design/social/PickUpNewSkill.jpg"); }
-#bounce3 { background-image: url("../images/design/social/FindResearchOpp.jpg"); }
-#bounce5 { background-image: url("../images/design/social/PolishYourResume.jpg"); }
-#bounce6 { background-image: url("../images/design/social/TakeCareerAssess_v2.jpg"); }
+#bounce1 { background-image: url("../images/design/social/Cover.webp"); }
+#bounce2 { background-image: url("../images/design/social/PickUpNewSkill.webp"); }
+#bounce3 { background-image: url("../images/design/social/FindResearchOpp.webp"); }
+#bounce5 { background-image: url("../images/design/social/PolishYourResume.webp"); }
+#bounce6 { background-image: url("../images/design/social/TakeCareerAssess_v2.webp"); }
 
 /* OPEN EXHIBIT */
 #open2,
