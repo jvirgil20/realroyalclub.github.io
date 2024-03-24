@@ -6,11 +6,17 @@
     border: 1px solid white;
 }
 
-#la, #miami, #nyc {
+#la, #miami, #nyc, #dc {
     width: 400px;
     border: none;
 }
 
+/* DC */
+#dc1 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-17_Compressed.jpg"); }
+#dc2 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-08_Compressed.jpg"); }
+#dc3 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-07_Compressed.jpg"); }
+#dc4 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-25_Compressed.jpg"); }
+#dc5 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-26_Compressed.jpg"); }
 /* GFIFFITH */
 #griff1 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-3.jpg"); }
 #griff2 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-4.jpg"); }
