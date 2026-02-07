@@ -11,6 +11,30 @@
     border: none;
 }
 
+/* CENTRAL PARK FALL */
+#centralpark1 { background-image: url("../images/photography/CentralParkFall_Oct2024_Edit-1-min.jpg");}
+#centralpark2 { background-image: url("../images/photography/CentralParkFall_Oct2024_Edit-2-min.jpg");}
+#centralpark3 { background-image: url("../images/photography/CentralParkFall_Oct2024_Edit-3-min.jpg");}
+
+/* UPTOWN FALL */
+#uptown1 { background-image: url("../images/photography/UptownFall_Oct2025_Edit-1-min.jpg");}
+#uptown2 { background-image: url("../images/photography/UptownFall_Oct2025_Edit-2-min.jpg");}
+#uptown3 { background-image: url("../images/photography/UptownFall_Oct2025_Edit-3-min.jpg");}
+
+/* MANHATTAN BRIDGE */
+#manhattan1 { background-image: url("../images/photography/ManhattanBridge_Apr2025_Edit-1-min.jpg");}
+#manhattan2 { background-image: url("../images/photography/ManhattanBridge_Apr2025_Edit-2-min.jpg");}
+#columbus { background-image: url("../images/photography/ColumbusCircle_Mar2025_min.jpg");}
+#radio-city { background-image: url("../images/photography/RadioCity_Nov2024_Edit-1-min.jpg");}
+#rockefeller { background-image: url("../images/photography/Rockefeller_Nov2024_Edit-1-min.jpg");}
+#subway { background-image: url("../images/photography/145st-Subway_Apr2025_Edit-1-min.jpg");}
+
+/* SNOWSTORM */
+#snowstorm1 { background-image: url("../images/photography/Snowstorm_Jan2026_Compressed-1-min.jpg");}
+#snowstorm2 { background-image: url("../images/photography/Snowstorm_Jan2026_Compressed-2-min.jpg");}
+#snowstorm3 { background-image: url("../images/photography/Snowstorm_Jan2026_Compressed-3-min.jpg");}
+#snowstorm4 { background-image: url("../images/photography/Snowstorm_Jan2026_Compressed-4-min.jpg");}
+
 /* TUDOR */
 #tudor1 { background-image: url("../images/photography/TudorCity_Jul2025_Small-4-min.jpg"); }
 #tudor2 { background-image: url("../images/photography/TudorCity_Jul2025_Small-1-min.jpg"); }
@@ -30,6 +54,7 @@
 #dc3 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-07_Compressed.jpg"); }
 #dc4 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-25_Compressed.jpg"); }
 #dc5 { background-image: url("../images/photography/JaylonVirgil_CherryBlossom_Mar2024-26_Compressed.jpg"); }
+#dc6 { background-image: url("../images/photography/DC-Trip_Dec2025_Edit-1-min.jpg"); }
 
 /* GFIFFITH */
 #griff1 { background-image: url("../images/photography/JaylonVirgil_Griffith_July2023_Compressed-3.jpg"); }
@@ -40,7 +65,8 @@
 
 /* MIAMI */
 #miami1 { background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-1.jpg"); }
-#miami2 { background-image: url("../images/photography/JaylonVirgil_Miami_Mar2023_Compressed-2.jpg"); }
+#miami2 { background-image: url("../images/photography/MiamiTrip_Jan2026_Compressed-2-min.jpg"); }
+#miami3 { background-image: url("../images/photography/MiamiTrip_Jan2026_Compressed-1-min.jpg"); }
 
 /* NYC */
 #nyc1 { background-image: url("../images/photography/JaylonVirgil_NYC_Nov2023_Compressed-1.jpg"); }
