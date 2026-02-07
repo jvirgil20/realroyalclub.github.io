@@ -215,6 +215,7 @@ strong {
     text-align: center;
     max-width: 550px;
     margin-top: 20px;
+    min-width: 25%;
 }
 
 .wide {
